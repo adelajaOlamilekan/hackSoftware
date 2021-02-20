@@ -1,0 +1,5 @@
+    
+    ComputationTable temp;
+
+    std::string binaryValue = temp.getSymbolValue("!M");
+    cout<<binaryValue<<"\n";

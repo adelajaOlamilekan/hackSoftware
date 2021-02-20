@@ -1,0 +1,8 @@
+SymbolTable
+
+- How do i design this class so that users(programmers) don't have to check availability of a symbol before getting the symbol's value.
+
+SymbolTable & CompuationTable
+
+- How do i design the two classes so that readSymbolFile() can read 'int' for the former amd 'string' for the latter
+  as data type of their symbol value.

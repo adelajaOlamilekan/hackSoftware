@@ -1,0 +1,3 @@
+    
+    JumpTable table;
+    cout<<table.getSymbolValue("JMP")<<"\n";

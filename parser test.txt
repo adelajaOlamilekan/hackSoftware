@@ -1,0 +1,14 @@
+    InstructionField parsedInstruction;
+    Parser parser;
+    std::string testString;
+	
+	while(cin>>testString){
+        	parsedInstruction = parser.parse(testString);
+        	cout<<"Register-Address: "<<parsedInstruction.register_address<<endl;
+        	cout<<"Destination: "<<parsedInstruction.destination<<endl;
+        	cout<<"Computation: "<<parsedInstruction.computation<<endl;
+        	cout<<"Jump: "<<parsedInstruction.jump<<endl;
+        	cout<<"symbol: "<<parsedInstruction.symbol<<endl;
+        	cout<<endl;
+   	 }
+	

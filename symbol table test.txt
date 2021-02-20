@@ -1,0 +1,20 @@
+///This program is used to test the symbol table class.
+
+    Table::SymbolTable symbols;
+
+    symbols.storeSymbol("R0", 0);
+    symbols.storeSymbol("R1", 1);
+    symbols.storeSymbol("R2", 2);
+    symbols.storeSymbol("R3", 3);
+
+    bool found = symbols.checkSymbol("R3");
+    if(found == true)
+        cout<<symbols.getSymbolValue("R3")<<"\n";
+    else
+        cout<<"R3 not found\n";
+
+    found = symbols.checkSymbol("R4");
+    if(found == true)
+        cout<<symbols.getSymbolValue("R4");
+    else
+        cout<<"R4 not found";

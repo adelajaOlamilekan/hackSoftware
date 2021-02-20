@@ -1,0 +1,3 @@
+
+    DestinationTable dest;
+    cout<<dest.getSymbolValue("AMD")<<"\n";
