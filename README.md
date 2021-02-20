@@ -1,2 +1,2 @@
 # hackSoftware
-Contains Low-level softwares  for the hack computer.
+Contains Low-level softwares (Assembler to OS) for the hack computer.
